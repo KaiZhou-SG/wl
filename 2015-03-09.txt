@@ -1,0 +1,10 @@
+1 set up TortoiseSVN for message system
+2 edit my resume
+3 review the design of the message system, including class diagrams as well
+ as the database table design
+4 consider how to continue with the project 
+5 make the message system compilable
+6 update the status to Mr. Lam
+7 if having time, write some JavaScript as well as HTML programs, live with
+ JavaScript and HTML
+

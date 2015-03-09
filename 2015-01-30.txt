@@ -1,0 +1,12 @@
+In the morning:
+
+1 Continue to learn and practice with the interaction diagram, 1 hour, 10:30
+2 Draw the sequence diagram for the Simulator, 1 hour, 11:30
+3 Review the technical design document, 30 minutes, 12:00 --> Lunch time
+
+In the afternoon:
+
+4 Discuss with Mr. Lam on how to deal with the requirements from USS
+5 Review the two diagrams: sd and cd
+6 Continue to write some codes based on the cd and sd
+7 Reply to Mr. Lam on the status

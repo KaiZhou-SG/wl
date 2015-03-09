@@ -1,0 +1,61 @@
+In the morning:
+
+1 Learn UML Sequence Diagram and practice it
+2 Summarize the requirements from USS on transport module, send it
+  to Mr. Lam, Tham, Soon, and Toni(done)
+3 Think of the messaging flow and review the design document
+4 Think about if to add a sequence diagram to the design document
+
+In the afternoon:
+
+5 Review the class diagram
+5 Finish the coding of the classes on the class diagram
+6 Finish the controllers of TM and GV
+7 Learn something on creating an Http Client to post messages
+8 Explain the situation on my side that if GV wants to connect
+  to us, we need to put the server application on a machine with
+  static IP
+
+
+
+Hi Helen, Roy, and the transport department,
+
+  During the demo of the transport module yesterday, you proposed the following
+changes:
+  1 Automatically set all the trips to "Ready" status after the Sea job is
+    transferred into the Haulage System.
+    >> We will give you a checkbox for you to enable this behavior, and default
+      it to be "ticked". But be aware that it means you won't be able to modify
+      the details of the trips any more(because they are in "Ready" status).
+  2 Order of the Columns, prompt the WorkOrderReference(the Sea Job Number) to
+    the front of the grid(inbetween the JobID and HaulageJobNumber columns)
+    >> We will make this change for you, but before releasing it to you, we need
+      to test it properly, to ensure it works on different Operating Systems(
+      Windows 7, Windows 8...)
+  3 Change the words of LegType from: FirstOfTwo, SecondOfTwo to 1/2, 2/2...
+    >> We will make this change for you.
+  4 More searching options. You want the JobTrips form on the planning module
+    to be searchable by Sea Job Number.
+    >> We will provide this search option for you.
+  5 In planning, assigining a "Ready" trip from the JobTrips form to the schedule
+    control by:
+    (1) "Right-Click" the trip
+    (2) Select an available driver
+    (3) Confirm
+    And the trip will be arranged as the last plan-trip of the selected driver.
+    >> We will add this feature for you, but we need to test it properly before
+      releasing it to you.
+  6 In planning, get rid of the JobTrips form, and use the middle pannel instead.
+    >> We understand your suggestion. However, this change will affect a lot of the   
+      current
+      system, if we made this change, we will do a lot of testing before we're 
+      sure it works under any possible scenarios. I'm afraid at this moment we'd better
+      help you to solve more critical problems(if there are any) to make sure the
+      whole transport module works lively, and leave this requirement to be reconsidered
+      after going live.
+
+    Thanks for your time, and please go on using the transport module and let me 
+  know when you have any problems.
+
+
+

@@ -1,0 +1,23 @@
+debconf: delaying package configuration, since apt-utils is not installed 
+
+debconf: unable to initialize frontend: Dialog 
+debconf: (TERM is not set, so the dialog frontend is not usable.) debconf: falling back to frontend: Readline 
+debconf: unable to initialize frontend: Readline debconf: (This frontend requires a controlling tty.) debconf: falling back to frontend: Teletype 
+
+Current default time zone: 'Asia/Singapore' 
+Local time is now: Tue Mar 3 15:34:22 SGT 2015. Universal Time is now: Tue Mar 3 07:34:22 UTC 2015. Run 'dpkg-reconfigure tzdata' if you wish to change it. 
+
+invoke-rc.d: policy-rc.d denied execution of stop. 
+
+invoke-rc.d: policy-rc.d denied execution of start. 
+
+invoke-rc.d: policy-rc.d denied execution of restart. 
+
+Moving old data out of the way 
+
+The click target was created successfully, installing required packages 
+
+---Click exited with no errors---
+
+
+

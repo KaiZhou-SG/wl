@@ -1,0 +1,4 @@
+1 Continue writing the resume, try to finish the first draft version today
+2 Learn something on MVC, as well as MVC web service, make notes
+3 Continue learning JavaScript, don't forget the "scope", live with HTML, live
+ with JavaScript

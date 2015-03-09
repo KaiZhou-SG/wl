@@ -1,0 +1,15 @@
+In the morning:
+
+1 Learn something on UML 2.0, for 1 hour till 10:40
+2 Think of the messaging flow and review the design document
+3 Review the class diagram
+4 Finish the coding of the classes on the class diagram
+
+In the afternoon:
+
+5 Finish the controllers of TM and GV
+6 Learn something on creating an Http Client to post messages
+7 Explain the situation on my side that if GV wants to connect
+  to us, we need to put the server application on a machine with
+  static IP
+

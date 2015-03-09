@@ -1,0 +1,17 @@
+First priorities:
+1 Finish my base classes design
+2 Finish my database tables design
+(there are only a few fields are not clear, it does not affect the whole design)
+
+In the morning:
+
+1 Reconsider the classes design and database tables design
+2 Revise the technical document
+3 Review my design, and make sure it's good enough to coding
+
+In the afternoon:
+
+3 Start coding
+4 Do some testing
+5 If having time, learn something on how to create an HttpClient to post objects
+6 Update the status to Mr. Lam

@@ -1,0 +1,12 @@
+Hi Mr. Lam,
+
+I'm changing my codes and database tables to the updated design, need 1 day(Monday) to finish and test it.
+
+The target is still to do a testing with Growth Venture for the first round, to do that I need to:
+  a) finish my codes / database changes(Monday)
+  b) create a server listening to the messages forwarded by Growth_Venture from MDT(Tuesday) and give them the Interface of it(Tuesday)
+  c) (Growth_Venture agrees on our interface, and finishes their client side(MDT + GV_Client)), then start testing
+
+I try to keep to the above target.
+
+
