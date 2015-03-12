@@ -1,0 +1,5 @@
+1 revise my resume
+2 learn how to publish an asp.net web application to iis 
+3 learn how to consume the asp.net web application published to iis
+4 continue with finishing the infrastructur of the simulator
+5 update the status to Mr. Lam
