@@ -1,0 +1,11 @@
+1 think about the infraustructure of the simulator, and document it down
+2 install iis to windows 8.1 my own pc
+3 learn how to publish web service to iis
+4 report the status to Mr. Lam
+
+notes:
+1 on Windows 7 in virtual machine, IIS 7.5 is installed, .NET Framework 4.5 is installed
+2 on Windows 8.1 on my physical machine, IIS 8.5 and .NET Framework 4.5 is installed 
+
+local ip: 192.168.44.9
+static ip: 203.117.219.7

@@ -1,0 +1,6 @@
+1 update the transport code of ms to tc version
+2 rethink about the business logic of the messaging system
+3 review the design of the messaging system, including class diagrams and database tables
+4 make sure the messaging system is compilable
+5 report the status of the messaging system to Mr. Lam
+6 do remeber to live with JavaScript and HTML
