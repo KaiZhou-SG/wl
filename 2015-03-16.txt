@@ -1,0 +1,12 @@
+1 In the morning
+ 1.1  Read some manual on Apache web server, to grasp some fundamental 
+  concepts of a web server.
+ 1.2  Try to deploy an simple testing web service to IIS on testing
+   machine, and try to access it
+2 In the afternoon
+ 2.1 Continue reading some manual on Apache web server, and make 
+  reading notes
+ 2.2 Try to deploy the messaging system to IIS on the testing machine,
+  and try accessing it
+3 Report the status to Mr. Lam
+4 Read the book: Soft Skill
