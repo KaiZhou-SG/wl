@@ -3,3 +3,15 @@
 3 learn how to consume the asp.net web application published to iis
 4 continue with finishing the infrastructur of the simulator
 5 update the status to Mr. Lam
+
+notes:
+
+1 made this change to static ip machine:
+  set <section name="handlers" overrideModeDefault="allow"/>
+  on file: %windir%\system32\inetsrv\config\applicationHost.config 
+2 to publish a web site is simply the process of copying compiled asp.net source codes
+ to a directory, the only difference is that that directory will later be 
+ referenced by the IIS as the web_root, so it's equal that manually copy and paste
+3 it's better to learn Apache instead of IIS to grasp the basic concepts of a web 
+ server  
+
