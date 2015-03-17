@@ -1,0 +1,12 @@
+In the morning:
+
+1 Deploy an simple web api service to the static ip testing machine
+2 Try accessing the above web api service
+3 Think about the concepts and the ways a web application is deployed to IIS
+
+In the afternoon:
+
+4 Deploy the Messaging System to the static ip testing machine
+5 Try accessing the Messaging System
+6 Review the class diagram and database table design of Messaging System
+7 Report the status to Mr. Lam
