@@ -1,0 +1,16 @@
+In the morning:
+
+1 Finish the experiment with the simple web service application, so that it can
+ perform CRUD operations
+2 Review the infrastructure of the simulator, and then review the class diagram
+ as well as the database table design, but don't change the design for now. For
+ the moment, it's more important to demonstrate the concept instead of creating
+ a perfect system.
+3 Make sure the simulator is compilable, review the function:
+ SetConnectionStringForMS()
+
+In the afternoon:
+
+4 Refer to the experience of paragraph 1, finish one circle of message flow wi-
+ th CRUD operations.
+5 Try to complete the front end for the planner role.
