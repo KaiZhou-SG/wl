@@ -1,0 +1,15 @@
+In the morning:
+
+1 Synchronize the coeds with version control
+2 Use the source codes as it is, deploy it to machine2 also
+3 Deploy the mvc_crud project to machine2
+4 Learn how to create an asp.net web service client to access the web service
+ server, and try accessing mvc_crud on machine2
+5 Creating a testing web service client to access mss on machine2
+
+In the afternoon:
+
+6 Review the classes and database tables of SE 1st Leg
+7 Try to finish the front end of planner
+8 Testing
+9 Report to Mr. Lam with the latest status  
