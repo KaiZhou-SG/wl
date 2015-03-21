@@ -1,9 +1,9 @@
 In the morning:
 
-1 Synchronize the coeds with version control
-2 Use the source codes as it is, deploy it to machine2 also
-3 Deploy the mvc_crud project to machine2
-4 Learn how to create an asp.net web service client to access the web service
+1 Synchronize the coeds with version control(done)
+2 Use the source codes as it is, deploy it to machine2 also(done)
+3 Deploy the mvc_crud project to machine2(done)
+4 Learn how to create an asp.net web service client to access the web service(
  server, and try accessing mvc_crud on machine2
 5 Creating a testing web service client to access mss on machine2
 

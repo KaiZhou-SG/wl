@@ -1,0 +1,2 @@
+1 Added a new column Trip_Status to MS_SE1stHead table
+2 
