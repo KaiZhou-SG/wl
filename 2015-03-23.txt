@@ -1,0 +1,46 @@
+1 firefox bookmark folders:
+ a cs
+  a1 basic concepts
+  a2 cpu
+  a3 theory
+  a4 thesis
+  a5 videos + textbooks
+ b sn
+  b1 basic concepts
+  b2 oo
+    b2.1 design patterns
+    b2.2 diagrams
+  b3 tools
+  b4 methodologies
+  b5 prj management
+  b6 thesis
+  b7 videos + textbooks
+ c foss
+  c1 linux basic
+    c1.1 bash
+    c1.2 vi/vim
+    c2.3 system settings
+    c2.4 perl
+  c2 resources
+    c2.1 ebook
+    c2.2 videos + textbooks
+ d web 
+   d1 basic concepts
+   d2 asp.net
+     d2.1 mvc
+     d2.2 web api
+     d2.3 iis
+     d2.4 frameworks
+   d3 js
+   d4 networking
+   d5 videos + textbooks
+ e C#
+   e1 basic concepts
+   e2 advanced features
+    e2.1 lambada
+    e2.2 anonynous 
+    e2.3 asynchronous
+    e2.4 linq
+    e2.5 concurrency
+  e3 framework
+    e3.1 entity framework
