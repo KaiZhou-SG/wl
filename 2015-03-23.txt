@@ -44,3 +44,9 @@
     e2.5 concurrency
   e3 framework
     e3.1 entity framework
+
+In the morning:
+1 Debug the function for the driver send "complete" message to the planner
+2 Prepare the whole system for demo to the boss
+
+
