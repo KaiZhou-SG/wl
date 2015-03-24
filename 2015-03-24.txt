@@ -1,0 +1,11 @@
+In the morning:
+
+1 Think through the message flow, with the help of sequence diagrams
+2 Think through the class design according to the sequence diagrams
+3 Think through the database table design according to thw above two points
+
+In the afternoon:
+
+4 Make changes according to the design made in the morning
+5 Test
+6 Report the status to Mr. Lam
