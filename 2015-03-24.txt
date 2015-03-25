@@ -1,0 +1,18 @@
+In the morning:
+
+1 Take a shower 
+2 Go to NEX to have breakfast
+3 Read some books there at NEX
+4 Have lunch at NEX, and go back home have a rest
+
+In the afternoon:
+
+5 Learn something on IIS configuration
+6 Read some books on ASP.NET MVC
+7 Write some ASP.NET MVC codes
+
+In the evening:
+
+8 Go out and walk around, come back at 8:30
+9 Read oub
+10 Have a good sleep
