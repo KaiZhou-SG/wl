@@ -1,0 +1,17 @@
+2015-03-21 The Status of the Messaging System Simulator Project, ZK
+
+  To clearly describe the status of ssms(status of the messaging system simulator), here I list out the
+following aspects:
+  1 The business logic & technical documents
+  2 The status of the source code base
+  3 The developing environment
+  4 The testing environment
+  5 The functionalities completed so far
+  6 The next step and target date
+
+  The business logic & technical documents
+  (1) Mr. Chong's document on message and message types, dated back to 2014-07
+  (2) 
+  (2) My class diagram, finished and also implemented in source codes
+  (3) 
+   

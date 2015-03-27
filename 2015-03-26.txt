@@ -1,0 +1,10 @@
+In the morning:
+
+1 Separate the existing codes and compile
+2 Commit the changes to totorisSVN
+
+In the afternoon:
+
+3 Make the design according to the separatioin of concern
+4 Implement the above design and test
+5 Report the status to Mr. Lam

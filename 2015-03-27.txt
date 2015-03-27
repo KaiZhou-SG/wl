@@ -1,0 +1,17 @@
+In the morning:
+
+1 Fix the bug that aproved trip reports are not cleared from the message pannel of the planner
+2 Fix the bug that the planner can send a trip to the driver multiple times
+3 Prepare testing data for demo to Mr. Lam and Toni, and gather feedback
+4 Propose to Mr. Lam that I go on site to USS to prompt the process of going live
+
+In the afternoon:
+
+4 Contact earth9.com about the application of sp
+5 Optimize my document and design according to the feedback
+6 Continue coding according to the optimized design
+7 Report the status to Mr. Lam
+
+I'm so excited to read your email, can't wait to join you as soon as I can.
+Before leaving I need to talk to my boss, hand over the work on my hand, I don't know how long it will 
+take, 
