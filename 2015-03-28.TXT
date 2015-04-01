@@ -1,0 +1,13 @@
+In the morning:
+
+1 figure out the the relationship between
+ all the existing gmail accounts, including
+ the activities and passwords of all of them, and make a list
+2 create a new gmail account as the main mail account
+  2.0 the user name and email address will be very different from all the exis-
+ ting ones, and does not disclosure my real name
+  2.1 secure it with 2-steps verification on login
+  2.2 plan the folders of google drive
+  2.3 publish the gmail account for public access
+
+
