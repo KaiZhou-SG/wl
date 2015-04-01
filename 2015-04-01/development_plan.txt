@@ -1,0 +1,9 @@
+1 test the t-sql scripts, and prepare for all t-sql scripts to run to a new uat
+ database
+2 think about the ip address issue, assume that I'll install the whole system
+ into one single pc only
+3 integrate the simulator to the transport application menu, so that the users
+ can start driverIU from independently or from the transport application menu
+4 modify the source codes, so that the simulator can also deal with sea export
+ 2nd legs
+
