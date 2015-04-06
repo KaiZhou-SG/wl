@@ -1,0 +1,25 @@
+ among the 4 parts: ws, plannerUI, driverUI, db on Z30-A119
+
+1) all the 4 parts are installed on Z30-A119
+2) info for other parts to access db:
+  a) sql server ip address
+  b) sql server instance name
+  c) sql server database name
+  d) login user id
+  e) login password
+3) info for other parts to access ws:
+  a) ws base address
+  b) application path(handled by mvc controller)
+4) the startup process of the 4 parts:
+  a) ws starts up first
+    a1) reads the .ini file, and get the info for accessing db
+    a2) does other initializations
+  b) plannerUI starts up next
+    b1) reads the .ini file, and gets the info for accessing db
+    b2) reads the .ini file, and gets the info for accessing ws
+  c) driverUI startsup finally
+    c1) reads .ini file, and gets the info for accessing db and ws
+5) creates a start up program, for the user to select sql-server + instance + database, and
+  ws. Once the user selected the above information, he / she is allowed to starts up each of
+  the front ends
+
