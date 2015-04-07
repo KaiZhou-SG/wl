@@ -1,0 +1,34 @@
+this is the deployment plan for deploying the simulator to uss for demo
+
+>> the components of the simulator:
+
+1 sql server
+2 uat database --> make a copy of uat database for the simulator only
+3 iis
+4 web service application files(for publishing the web service)
+5 transport applications
+
+>> files needed to prepare before deploying
+
+1 sql scripts 
+2 web service application files
+3 transport applications
+4 this document
+
+>> steps to deploy the Simulator to USS 
+
+1 login to uss testing server(if they have a testing server, otherwise, install to production server)
+2 back up a latest version of the uat database 
+3 create an empty new database, call it uat database2 hereafter
+4 restore the backup file to the new empty database, and use it for deploying the simulator
+5 run t-sql scripts to the uat database2
+6 install iis, create a website and create a virtual folder 
+7 create a folder on the server drive, point the virtual folder to this folder, set up the bindings of the    web site plus applications
+8 perform a trail of the above deployment plan on the testing machine in ipl office
+
+>> notes on implementation of the above plan:
+
+1) fix the table names, as well as the corresponding source codes
+2) fix other mismatching issues on the script
+3) add logic for sea-export 2nd leg messages
+4) do some testing
