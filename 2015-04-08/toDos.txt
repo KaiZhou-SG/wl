@@ -1,0 +1,10 @@
+In the morning:
+
+1 write some small programs in node.js debugging environment
+
+In the afternoon:
+
+2 continue with the book beginning_node.js.pdf, focused on the chapter on
+  node.js core
+3 try writing some small programs on node.js
+
