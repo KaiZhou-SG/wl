@@ -1,0 +1,13 @@
+In the morning:
+
+1 read the updated document from GV first
+2 think about the difference between the design of mine and GV
+3 think about how to implement the simulator if following GV's design
+
+In the afternoon:
+
+4 refine my design according to GV's design
+5 implement the new design
+6 test
+7 update to Mr. Lam
+
