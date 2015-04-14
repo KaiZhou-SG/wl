@@ -1,0 +1,11 @@
+In the morning:
+
+1 review the class diagram, including its design and each fields. and optimize it
+2 change my source codes according to the new design
+
+In the afternoon:
+
+3 check if Ngee Meng replied
+4 ask for Mr. Lam on WYN2K issue
+5 test the source codes of the new design
+6 update the status to Mr. Lam

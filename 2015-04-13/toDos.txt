@@ -1,0 +1,17 @@
+In the morning:
+
+0 suggest Mr. Lam to make an appointment with gv for the face to face discussion
+1 read through the document sent from gv
+2 review my current design
+3 prepare for a face to face discussion with gv
+  3.1 clarifications
+  3.2 proposoals
+  3.3 make a schedule on live testing
+
+In the afternoon:
+
+4 present my preparation of face-to-face discussion with gv
+5 if Mr. Lam and gv are not prepared for the discussion yet, I continue with my design
+  and implement + debug
+6 update the status to Mr. Lam
+
