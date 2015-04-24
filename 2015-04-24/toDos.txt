@@ -1,0 +1,11 @@
+In the morning:
+
+1 Import the Messaging System source codes into TeamCoherence
+2 Read something on Software Engineering
+3 Upgrade Ubuntu 14.10 to 15.04
+
+In the afternoon:
+
+4 Continue with the technical document of the Messaging System
+5 Implement some of the functions according to the specs
+6 Report to Mr. Lam
