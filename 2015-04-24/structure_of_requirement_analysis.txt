@@ -1,0 +1,6 @@
+What will be in the Requirement Analysis Documentation?
+
+1 A brief introduction of the purpose of the messaging system.
+2 A use case diagram to demonstrate what the messaging system provides.
+3 User interface requirements
+4 Other requirements

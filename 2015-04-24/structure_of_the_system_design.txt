@@ -1,0 +1,14 @@
+What will be in the System Design Document?
+
+1 The components of the whole solution.
+2 The message flow among the components. Sequence diagram.
+3 The architecture of the whole solution, including the Transport Application
+  and the Messaging System in project level. And how do those projects 
+  cooperate.
+4 The rchitecture of the new project(The Messaging System and a class library)
+  and how do those two new projects fit in the whole solution.
+5 Class diagram.
+6 Explanations of critical classes and methods in logic level.
+7 Screenshots of the new UI.
+8 Database tables design in fields level.
+
