@@ -1,0 +1,10 @@
+In the morning(2 hours):
+
+1 Read the book Rich dad, poor dad
+2 Review the reading notes of yesterday
+
+In the afternoon(4 hours):
+
+3 Write C# codes to implement the MS design
+4 Create a document on how to access our web serivce
+5 Report to Mr. Lam
