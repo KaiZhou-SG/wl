@@ -1,0 +1,9 @@
+In the morning:
+
+1 Learn something on vim
+2 Write the document for the new design
+
+In the afternoon:
+
+3 Implement some easy parts of the new design
+4 Test and report to Mr. Lam

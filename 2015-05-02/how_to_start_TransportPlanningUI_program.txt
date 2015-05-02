@@ -1,0 +1,21 @@
+How to start up the TransportPlanningUI program:
+
+>> When integrated with FreightMaster
+  1 Current, FreightMaster only provides 3 arguments:
+    a) user id, it's the application user id as well as the database login id
+    b) sql-server-address\sql-server-instance-name
+    c) sql-server-database name
+  2 I also need a web service address when startting up, now I decided to read
+  the web serivce address from the .ini file, instead of passing it from the
+  FreightMaster via arguments.  
+
+>> On local testing:
+  1 Start it with TransportMainMenuUI
+  2 Pass exactly the same 3 arguments from FreightMaster
+  3 Read the .ini file to obtain the web service address
+
+>> Conclusion:
+  The arguments of starting up the TransportPlanningUI program remains unchanged,
+and add a piece of code to read the .ini file obtaining the web serivce address.
+
+

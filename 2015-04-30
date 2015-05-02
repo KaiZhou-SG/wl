@@ -1,0 +1,42 @@
+Topics to discuss with Growth Venture
+ 
+1 About your hardware device:
+
+a My understanding of the 250 chars limitation is that:
+  (1) the length of the message BODY cannot exceed 250 characters.
+  (2) and special characters such as a blank in the message body will be 
+    counted as one character.
+  (3) the message HEAD is not counted into the 250 characters limitation.
+   Am I correct?
+  P.S. Are there limitations on the total length of the Message Head?
+  
+b Truncation: 
+    See from the screen-shots in your latest document, I think the 
+  mechanism of truncation is your MDT display extracts the first 250 characters,
+  and leave out the other characters. 
+    Am I correct?
+  
+2 For Trip Instruction messages:
+
+a We will add short labels to the message body, e.g.:
+  cont:APL2024^sealAPL2024^frm:stopA^to:stopB
+    As saw from the above example, cont, seal, frm, to are short labels, this 
+  is for the drivers to understand the message body.
+    We will use ^ as the separator among multiple properties.
+b As we will have multiple planners to send Trip Instructions
+    So when the driver sends Trip Update messages back to our planner, we want
+  the Trip Update messages go to the right planner.
+    Can we add a field called planner_id to the HEAD of the Trip Instruction and
+  Trip Update messages?
+
+3 For TU01 messages:
+
+a The same reason as stated above, we propose a planner_id to be added to the
+  Head of Trip Update messages.
+b There are two Trip Update messages in your sample:
+  01 means the trip is started
+  07 means the trip is completed
+    We propose your side to be open to other trip status, such as Trip 
+  Instruction is rejected, traffic-jam, failed, and so on...
+c Still, we propose using ^ as the separator, as we concern that the message 
+  body may contain ~ also.   
