@@ -1,0 +1,8 @@
+1 considering the message flow:
+
+ 1) transport application send a trip instruction message to growth venture
+ 2) web service receives a trip update message from growth venture
+ 3) transport application displays all trip update messages from growth venture
+ 4) transport application confirms and performs the trip update operations according to the
+  trip update message
+ 5) transport application declines the trip update message
