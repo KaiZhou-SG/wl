@@ -1,0 +1,21 @@
+In the morning:
+
+Do these 3 items within one houre:
+1 Install the latest Transport Application to ToShiba via RealVNC 
+  1.1 Download and compile the latest transport application source codes
+  1.2 Test on my own PC using FM80_Transport_ZK database, and a set of FMManager.ini file
+  1.3 Backup the FM80_Transport_ZK database 
+  1.4 Copy all the Transport Applications 
+  1.5 Copy items 1.3 and 1.4 to supportsvn public folder
+  1.6 Back up all existing transport applications and FMManager.ini file
+  1.7 Replace all existing transport applications with items 1.4 and FMManager.ini file
+  1.8 Restore 1.3 to ToShiba 
+2 Run a round of testing on ToShiba Transport Application
+  2.1 Look for a document on how to operate Haulage module, if cannot find, create a document
+    on how to do basic operations
+3 Report to Mr. Lam
+
+4 Read the article of JavaScript for Cats
+5 Practice with writing some small piece of codes
+
+

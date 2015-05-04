@@ -1,0 +1,15 @@
+Background Introduction
+ 
+  Union Service(s) Pte Ltd has lots of cases to Import Sea-Jobs into Transport Haulage
+Module. However, Haulage Job Trips at Transport side are organized by Job Numbers, while
+Sea-Jobs at Sea-Freight side are Container centralized.
+  In order to fill in this gap, we introduced two concepts: Leg_Group and Leg_Group_Member
+at Haulage side. Now a job trip does not only have a Job Number
+and a Job Trip Sequence Number, it also has a Leg_Group and Leg_Group_Member.
+  Leg_Group and Leg_Group_Member are Container related: When importing a Sea-Job to 
+Haulage module, any job trips for the same container have the same Leg_Group, and are indexed
+with a Leg_Group_Member.
+  For details of the mapping between a Sea-Job and a Haulage Job, please refer to Appendix A.
+  So Leg_Group and Leg_Group_Member are added to database tables with this background. The 
+problem is: it's good to do 
+
