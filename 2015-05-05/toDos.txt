@@ -1,0 +1,12 @@
+In the morning: 
+
+1 Work on coding of the Messaging System
+2 Initiate the end-to-end testing with Growth Venture Mr. Ngee Meng
+3 Record the errors
+
+In the afternoon:
+
+4 Do a research on how to install ChromiumOS on Ubuntu
+5 Try to install ChromiumOS on my Ubuntu
+6 Learn something on ChromiumOS
+7 Report to Mr. Lam
