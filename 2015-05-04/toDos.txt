@@ -1,0 +1,26 @@
+The schedule is:
+
+Monday: 
+  (1) Do internal testing of the messaging system
+  (2) Deploy it to the static ip testing pc
+  (3) Do a internal testing
+  (4) Create a document on how to access our web service, and send it to GV on Tuesday
+  (5) Report status to Mr. Lam
+
+Tuesday:
+  (1) Send the document on how to access our web service to GV
+  (2) Arrange end-to-end testing with Ngee Meng
+  (3) Debug and coding while testing
+  (4) Report status to Mr. Lam
+
+Wednesday:
+  (1) Continue coding with the Messaging System
+  (2) Arrange another end-to-end testing with Ngee Meng
+  (3) Report to Mr. Lam
+  (4) Consider how to complete the two outsdanding issues
+  (5) Report status to Mr. Lam
+
+P.S. Before leaving, create a document on how to run live-data-checker, data-convertor
+and check-after-convertion, it's critical for updating the existing customers.
+
+

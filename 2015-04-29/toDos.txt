@@ -1,0 +1,6 @@
+Coding plan:
+
+1 Implement the function of posting an TripInstruction01 object
+2 Add a new form, for monitoring all in-coming and out-going messages
+3 Test the function that listens to and process TripUpdate01 messages
+
