@@ -1,0 +1,10 @@
+In the morning:
+
+1 Go on with PythonAnywhere
+2 Try to publish my first personal pages on PythonAnyWhere
+
+In the afternoon:
+
+3 Go on coding and testing
+4 Deploy my latest applications to the testing machine
+5 Report to Mr. Lam

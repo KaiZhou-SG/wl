@@ -1,0 +1,41 @@
+1 In TripUpdate01Controller.cs class
+  a) To MS_TripUpdate01_Tbl, add a column called Is_Message_Valid bit notnull
+  b) To MS_TripUpdate01_Tbl, add a column called IPL_Remarks nvarchar(100) null
+  c) On MS_TripUpdate01_Tbl, Modify the column Trip_Status in MS_TripUpdate01_Tbl, 
+    into Is_Processed BIT
+  d) Methods:
+  1.1 public HttpResponseMessage OnReceiveTripUpdate01(TripUpdate01 tripUpdate)
+    This method will be invoked when the web service receives a TripUpdate01 message, it will:
+    a) Validate the TripUpdate01 message
+        if invalid -->
+            1) generate error message
+            2) send response to WS_GV with the error message 
+            3) insert this message into database, with error message as IPL_Remarks
+               and set Is_Message_Valid to 1, and set Is_Processed to 0 
+        else if valid -->
+            1) generate successful message
+            2) send response to WS_GV with the successful message
+            3) insert this message into database with no remarks and set Is_Update_Message
+               _Valid to 0,
+               and set Is_Processed to 0
+  1.2 bool ValidateTripUpdate01(TripUpdate01 tripUpdate, out string feedBack)
+    1) This function is to validate the tripUpdate01 message, it is invoked by function 1.1
+    2) validations:
+      a) if the MessageCode == "TU01"
+      b) if the HeadNo is valid
+      c) if the combination of HeadNo + SeqNo is valid
+      d) if the MessageBody is valid 
+  1.3 bool InsertTripUpdate01IntoDB(TripUpdate01 tripUpdate, string remark, bool Is_Message_
+       valid)
+      1) this function is invoked by function 1.1 
+
+2 In TripUpdate01.cs class
+  a) GetAllUnProcessedTripUpdate()
+    1) Select all TripUpdate01 messages whose Is_Processed <> 0
+  b) InsertTripUpdate01(TripUpdate01 tripUpdate, string ipl_remark, bool isValidUpdate)
+    1) insert the arguments into database, plus set Is_Processed = 1
+  c) PerformTripUpdate(TripUpdate01 tripUpdate)
+    1) The prerequisit of this function is that the tripUpdate object is already validated
+    2) resolve the MessageBody property into a list of sql-commands
+    3) execute all sql-commands in the list in one transaction
+    4) give prompt to indicate success or fail + what has been updated
