@@ -1,0 +1,10 @@
+In the morning:
+
+1 Learn something on an open-source cms frameworks
+2 Try creating a small cms application
+3 Spend 30 minutes with Gerry on how to debug a asp.net web service with Fiddler
+
+In the afternoon:
+
+4 Continue with learning with an open-source CMS system 
+5 Review what I've learned today.
