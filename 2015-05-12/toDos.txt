@@ -1,0 +1,14 @@
+In the morning:
+
+1 Install django-cms, and run a test
+2 Read some documents for quick start
+3 Create an own django-cms application
+4 Brief to Gerry on the Coding of the MS
+
+In the afternoon:
+
+5 Continue with my perosnal pages based on django-cms
+6 Review what I've learned today
+7 Spare 1 hour to clean up my system, deleting personal data as well as 
+unnecessary files
+8 Report to Mr. Lam

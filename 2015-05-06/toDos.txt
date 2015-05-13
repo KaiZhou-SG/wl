@@ -1,0 +1,10 @@
+In the morning:
+
+1 Read the book OUB
+2 Review the reading notes of OUB
+
+In the afternoon:
+
+3 Continue implementing the Messaging System
+  3.1 Create a plan before coding
+4 Report to Mr. Lam
