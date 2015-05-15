@@ -1,0 +1,6 @@
+Within only one hour time:
+
+1 Install pip
+2 Install virtualenv
+3 Create a virtualenv and install a django framework to it
+4 Create a django web application inside the virtual environment
