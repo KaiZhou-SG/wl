@@ -7,10 +7,19 @@ In the morning(from 10:30 a.m. to 12:30 p.m., 2 hours):
   >> Microsoft technologies plus Android and iOS chances
   >> High preasure
 2 Based on contents.txt, create a detailed plan on each item.
-
+  --> haven't done, need to think it thoroughly.
+  --> my idea is, create my personal cms first, as my internet name card
+  --> I choose Python + JavaScript
+  --> I need to learn Android
+  --> I'm also interested in ChromiumOS
+  --> I still have a plan to enhance my basic knowledge of computer science
+  --> I want to improve my ability to design software
+  those are really a lot of things I want to do, I do need a well prepared
+plan to proceed successfully and efficiently.
 In the afternoon(from 13:30 p.m. to 16:30 p.m., 3 hours):
 
-3 Read the migration letter from NZ government.
+3 Read the migration letter from NZ government(done).
 5 Think about how to deal with my 20K SGD, don't just put it there sleeping!
-4 Deal with the .cache folder.
-6 Read SWKBv3.
+  -> Will place 25K as a fixed deposit to MayBank before 10th June 2015.
+4 Deal with the .cache folder(haven't done).
+6 Read SWKBv3(didn't start today, start tomorrow morning).
