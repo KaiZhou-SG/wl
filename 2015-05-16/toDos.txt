@@ -1,0 +1,16 @@
+In the morning(09:44 ~ 12:00, 2 hours 15 minutes):
+
+1 Review SOP(30 minutes).
+2 Think abou how to create my own cms, and host it on cloud.
+3 Learn something on Python classes, how to define a class, and how to use a 
+class.
+4 Write some small Python programs to practice this new concept.
+
+In the afternoon(13:30 ~ 17:30, 4 hours):
+
+4 Learn something about the Django framework.
+5 Try to install Django on my Ubuntu, and create a test Django application.
+6 Try to host my Django application on DigitalOcean, doesn't matter it's only
+a unfinished application, just host it. Of course, redirect my domain name to 
+it.
+7 Go on learning something about Django.
