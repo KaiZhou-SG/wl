@@ -1,0 +1,8 @@
+In the morning, 3.5 hours left:
+
+1 Change the style of container for each of the 10 pages
+2 change the style of the table header(if any) for each of the 10 pages
+3 change the style of buttons(if any) on each of the ten pages
+4 Check with Min Qi on the two master-page thing, and merge the codes to
+review the layout of the pages.
+
