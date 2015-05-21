@@ -1,0 +1,12 @@
+1 I added a style: style="width:550px" to the containContainer760 when the
+page is not wide enough.
+  >> I may need to remove it after the new master page is done.
+2 I also reduced the width of the bar(called Add), because it reaches out of
+the range when I add the above style to contentContainer760.
+3 I'm not able to convert asp.net button into JavaScript button.  
+
+not so new concepts:
+
+1 Server controls
+2 Button
+3 Master Page

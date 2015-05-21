@@ -1,0 +1,9 @@
+1 Compile local web site(including each other projects under the solution)
+  >> done, but NTUCEldercare_ClientDayCareInvoice_Scheduler projects cannot
+  >> compile
+2 Publis the web site to my local PC
+  >> done --> to d:\home\www_root\ntuchc
+3 Add a new web site on the server IIS, create a www_root folder as well
+  >> 
+4 Copy the programs from my local PC to that www_root folder on server
+5 Test accessing the staging web site
