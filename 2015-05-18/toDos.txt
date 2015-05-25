@@ -1,0 +1,23 @@
+1 Find where the two web sites are, the url of the old one, and set up the
+project of the new one.
+  1.1 the existing web site, which is also the one we use it to do demo:
+    url: ntuceldercare206.earth9.com
+      user name: administrator
+      password: Password1!
+    we also have source codes reside at: ~/existing
+  1.2 the conventing web site, which Min Qi and I am working on to convert
+    url: started from the source code, resides at: ~/converted
+
+2 Understand how to debug the two projects:
+  2.1 What are the places need to modified.
+  2.2 What technologies are applied.
+
+3 Discuss with Ronnie what kind of clients are to be listed on the left slide
+of the Clinet Profile page.
+  
+*****  Archieve *********
+1 Read the source codes of the old version of the website 
+2 Wait till Min Qi come back, and asks her on how to continue with the work
+3 Report to Ronnie 
+
+

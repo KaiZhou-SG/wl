@@ -1,0 +1,5 @@
+1 Use observation to do my job.
+2 .ascx file:
+  It's a user control, it contains a server control with some functionalities
+as a whole, for reuse in many places.
+3 

@@ -1,0 +1,11 @@
+In the afternoon:
+
+1 Finish installing visual studio 2008
+  1.1 Install vs9.0
+  1.2 Install sp1
+2 Install Sql Server Management Studio 2008
+3 Read the assignment to me again, to understand the purpose of the report
+4 Study the source codes of reporting:
+  4.1 If I can reuse the existing source codes
+  4.2 If I can solve the SSRS authentication problem of the staging machine
+5 Report to Ronnie

@@ -1,0 +1,12 @@
+In the morning:
+
+1 Check what I need to finish today.
+2 Review the codes for retrieving reports:
+  2.1 aspx --> .js --> aspx.cs --> stored procedure --> db
+  2.2 debug the work flow of retrieving a daycare cumulative via the above
+routine.
+3 Double check what columns do I need to retrieve for the report I'm doing
+today.
+4 Check the DB ER diagram, and figure out how to retrieve those columns I
+need.
+5 Make a coding plan and start coding.

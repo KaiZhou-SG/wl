@@ -1,0 +1,32 @@
+In the morning:
+
+1 Continue with Service Assignment Booking page: --> DONE
+  1.1 Refer to what Min Qi has done, to change my three columns
+    >> Need to observe what has Min Qi has changed, as well as the new
+     structure
+     ******* what Min Qi has done is separate the columns(if there are more
+than one column, and each column has its own title, and the top title is set
+to h1. And for each individual column, Min Qi either made use of the existing
+div class or created new div classes, and adjust the width of each column, so
+as to align with the top header of the page******
+    >> Need to reconsider my case, and consider how to apply the same style to
+     my page.
+    ***** first of all, I found two pages Min Qi has done which are similar to
+my two pages currently working on. Then I used Firefox web developer tool to
+analysis what style did Min Qi apply to the page.
+
+2 Continue with Invoices Listing Page: --> DONE 
+  2.1 Rearrange the three rows on the header
+    >> See if it's possible to re-create the table, if decided to do so, make
+      sure I have a copy of the existing codes before overwriting.
+    >> 
+  ***** I rewrote the table layout for the 3 row searching criteria.
+
+3 Deploy the changes before 11:30 a.m. to the stages server -> DONE
+  3.1 Need to confirm with Min Qi with her way of deploying, but I observe her
+way of deploying first.
+
+In the afternoon:
+
+4 Go on with the assignment
+  
