@@ -1,0 +1,18 @@
+In the morning:
+
+1 Review what I've learned yesterday.
+  1.1 What is SQL, and its features
+  1.2 What is SQL Cursor, and how to use it
+
+2 Think about how to complete the assignment of attendance report, and make a
+design
+  2.1 I've found the js control for the time sheet area
+  2.2 I need to spend some time to figure how does it work
+  2.3 I need to use the js control to transport page
+
+In the afternoon:
+
+3 Try to complete the attendence report
+  3.1 Refer to the existing codes(attendence page)
+  3.2 
+  
