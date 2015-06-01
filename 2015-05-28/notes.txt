@@ -1,0 +1,16 @@
+1 Tables involved:
+
+  Centre
+  Client
+  Client_DayCareServicePlan
+  Client_Timesheet
+  DayCarePlan
+
+2 Get a record to test to study the relationship among the above tables
+  
+  CentreId = 16 --> Silver Circle(Fengshan)
+  ProgrammeId = 83 --> MDC-MAINTANCE DAY CARE
+  ClientId = 1061 --> Ang Geok Lan Katherine NRIC S0257141Z
+
+3 
+  

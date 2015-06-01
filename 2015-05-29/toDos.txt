@@ -1,0 +1,9 @@
+1 Checkout the latest codes to another folder(for working on the reports) 
+  --> done, checkout at papnew_20150529
+2 Back up the original stored procedure if I need to modify it
+3 Focus on doing the attendance report
+  3.1 Make use of the existing view to select wanted data
+  3.2 Use cursor to manipulate the data in stored procedure
+  3.3 insert the result into the temporary table and return the table
+  3.4 Display the result on the reporting page
+4 Report to Ronnie 

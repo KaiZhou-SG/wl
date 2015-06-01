@@ -1,0 +1,13 @@
+In the morning:
+
+1 Debug the stored procedure for the attendance report 
+2 Do unit testing and take screenshots 
+3 update the status to Ronnie
+
+In the afternoon:
+
+4 Learn the codes of eldercare project
+5 Merge my local code with the working copy, and commit to svn
+
+
+

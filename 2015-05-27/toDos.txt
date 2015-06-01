@@ -14,5 +14,6 @@ In the afternoon:
 
 3 Try to complete the attendence report
   3.1 Refer to the existing codes(attendence page)
-  3.2 
+  3.2 Add criteria: Centre, Client, Program, From(Month/Year), and
+To(Month/Year)
   
