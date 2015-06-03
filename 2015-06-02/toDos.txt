@@ -1,0 +1,10 @@
+In the morning:
+
+1 Finish the functionality of accessing and passing from year / month and to
+year / month to back end.
+2 Merge the reporting codes and commit to svn
+3 Start the next report: Transportance
+
+In the afternoon:
+
+4 

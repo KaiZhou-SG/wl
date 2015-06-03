@@ -1,0 +1,14 @@
+programme type = 498
+
+table:
+client_daycareserviceplan: 
+  where all program or service added to a client is stored
+Lookup_Data:
+  where various setting or special data is stored
+
+
+
+
+
+dbo.Holiday
+dbo.HolidayYear

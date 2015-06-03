@@ -1,0 +1,24 @@
+1 Review the requirement
+  1.1 report criterias:
+    > Centre Name
+    > Month / Year
+  1.2 report format:
+    > Content: 
+               a: list all clients belonging to the selected centre
+               b: list of true / false value for each day on that selected
+Month / Year for every client(true means the client has booked Transport
+Program on that day, false means the client hasn't booked)
+                  
+    > UI: 
+         a: the calendar of the selected Month / Year
+         b: a summary on how many clients booked Transport Program on a daily
+basis
+    > Functionality:
+         a: Find out the timesheet control
+         b: Study how the timesheet control works for Attendance
+         c: Apply the concept of Attendance timesheet to that of the Transport
+Program.
+
+2 Research the database and get the related tables
+3 Study how the timesheet for attendance works
+4 
