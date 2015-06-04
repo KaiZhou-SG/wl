@@ -1,0 +1,5 @@
+1 Continue with summarizing the knowledge I already know about the Internet
+and the Web.
+2 Read something about asp.net mvc
+3 Learn something about CMS
+

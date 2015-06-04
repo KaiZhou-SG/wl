@@ -1,0 +1,19 @@
+1 What I'm good at?
+  
+  I'm good at C# the programming language, I've been working on it for entire
+career.
+  I'm good at WinForm programming, have 4 years working experience.
+  I also have basic knowledge on SQL Server, including T-SQL, and stored
+procedure.
+  I have some experience on ASP.NET Web API 2, but not too much.
+  I know HTML, CSS, and have some experience on JavaScript, but I'm not
+familar with frameworks other than JQuery.
+
+2 What's a suitable job for me then?
+
+  Positions like in UMC, which does not require a lot of web technologies.
+  Positions which require WinForm application experience.
+  Positions which have some expoure on web technologies, but not so heavy.
+
+3 
+  

@@ -1,0 +1,12 @@
+1 Entity Framework is an Object Relational Mapping framework, it maps between
+in memory objects and database tables, in order to reduce manual work
+including:
+  > hand writing T-SQL queries to retrieve data
+  > create objects in memory
+  > use retrieved data to initialize those objects
+
+2 How to use EF?
+  2.1 NuGet, use NuGet to add EF reference to current project
+  2.2 Add DataItems
+
+  

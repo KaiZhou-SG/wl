@@ -1,0 +1,54 @@
+JavaScript
+jQuery
+ASP.NET 
+EntityFramework
+Complex T-SQL queries
+SQL Server Reporting Service
+CSS
+HTML
+
+Is it possible for me to manage the above skills within 7 days? or how many
+days do I need?
+
+JavaScript: 
+ 1 the basic syntax, 1 day
+ 2 functions, 1 day
+ 3 objects and prototype, 1 day
+    --> 3 days
+
+jQuery:
+ 1 basic syntax, 1 day
+ 2 other usage, 2 days
+    --> 3 days
+
+ASP.NET MVC
+  2 days
+
+EntityFramework
+  2 days
+
+Complex T-SQL queries
+  1 day
+
+SQL Server Reporting Services
+  1 day
+
+CSS
+  1 day
+
+HTML
+  1 day
+
+14 days in total.
+
+>> Is 14 days acceptable? Or how to make it acceptable?
+
+1 First of all, it's necessary to master all the above desired skills to have
+a good job.
+2 So I must work very hard to master all the above skills in a very short
+time, let it be 14 days.
+3 Do I start to look for jobs after those 14 days? 
+  > NO, I'll focus on looking for jobs, and at the meantime, I learn those
+   skills.
+
+

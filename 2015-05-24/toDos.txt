@@ -1,0 +1,18 @@
+In the morning(10:20 a.m. ~ 12:20 p.m., 2 hours):
+
+1 Learn something on sql server reporting service
+2 Learn something on database basic via those 8 youtube tutorials
+3 Learn something on T-SQL(especially those complex syntax)
+
+In the afternoon(14:00 p.m. ~ 17:00 p.m., 3 hours):
+
+4 Learn something on JavaScript
+ 4.1 How to debug a JavaScript
+ 4.2 What is JQuery?
+ 4.3 What is Ajax, and the AjaxPro package?
+
+In the evening(19:00 p.m. ~ 21:00 p.m., 2 hours):
+
+5 Review the past week and think about how am I going to deal with current
+job, as well as how to continue with my long-term plan?
+6 Learn some Computer Science basic, back to the basic.
