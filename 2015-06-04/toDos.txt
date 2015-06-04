@@ -1,0 +1,8 @@
+In the afternoon:
+
+1 Use EF with VS2013
+2 Finish watching the EF tutorials(25 tutorials)
+3 Tomorrow I need to watch Database tutorials and review what I've learned on
+the topic on Database
+4 The next step is JavaScript and jQuery, then ASP.NET, finally CSS and HTML
+

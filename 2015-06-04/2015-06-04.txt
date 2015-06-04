@@ -1,0 +1,20 @@
+Remember two phases:
+
+Phase 1: 2015-06-04 ~ 2015-06-23
+Phase 2: 2015-06-25 ~ 2015-07-25
+
+Learning plan:
+
+1 Database basic concepts
+  >> 8 video tutorias on youtube.com, 2 days, 2015-06-04 & 2015-06-05
+  >> using Northwind sample database
+  >> creating learning notes for review
+2 Entity Framework
+  >> 25 vidoe tutorials, 2 days, 2015-06-06 ~ 2015-06-07
+  >> try using EF with WinForm application using NorthWind
+3 JavaScript
+  >> basic syntax 1 day, 2015-06-08
+  >> function and object and prototype 1 day, 2015-06-09
+4 jQuery 
+  >> watch video tutorials
+

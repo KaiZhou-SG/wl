@@ -6,7 +6,41 @@ including:
   > use retrieved data to initialize those objects
 
 2 How to use EF?
+  2.0 Schema First, Model First and Code First.
+    Schema First --> create database tables first
+    Model First --> manipulate the model(edmx) files first 
+    Code First --> creating entity classes first.
+
   2.1 NuGet, use NuGet to add EF reference to current project
-  2.2 Add DataItems
+  2.2 Add Data -> ADO.NET Entity Data Model
+  2.3 Set up the ADO.NET Entity Data Model
+    > Connection string to the SQL Server
+    > Choose a specific database on that SQL Server
+    > Store the database connection string in the Web.Config file with a name
+     for use in future.
+    > Choose interested tables, views, foreign keys and so on...
+    > .designer.cs file
+    > Compile the solution first, before using the ADO.NET Entity Data Model
+  2.4 Navigation property
+  2.5 Gridview control: Template(can drage and drop another gridview control
+into the template column)
+  2.6 Eval method, Eval('Employee') --> the Employee is the navigation
+property.
+  2.7 Include, of the datagridview control property tab, set the Include
+property to the Navigation property(which is Employee).
+  2.8 Add bund column(a sub set of all columns of another table(the Employee
+table).
+
+  >>> Model First
+  1.1 Create an empty model file
+  1.2 Add Entities to the model file, and set the properties such as primary
+key and add association(which is the navigation property)
+  1.3  The connection string stored in Web.Config file is important.
+
+
+ 
+  
+    
+  
 
   

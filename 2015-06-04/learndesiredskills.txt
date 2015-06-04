@@ -1,7 +1,14 @@
-1 Entity Framework
+1 Entity Framework(2 days)
   1.1 coding first
   1.2 model first
   1.3 how to use them in real projects
+  >> How to learn?
+  1.4 Finish watching the Entity Framework tutorials and make learning notes,
+1 day.
+  1.5 Install a sample database, and try EF by myself, as well as learn some
+LINQ 
+  1.6 Practice, and make notes(for I'll review them in future).
+
 2 Complex T-SQL queries
   2.1 Join, inner join, left join, right join
   2.2 union
@@ -9,16 +16,20 @@
   2.4 cursor
   2.5 system functions
   2.6 install a smaple database to my pc, and try it.
+
 3 JavaScript
   3.1 basic syntax
   3.2 functions
   3.3 object and prototype
   3.4 DOM
+
 4 jQuery
   4.1 learn what to learn
   4.2 learn how to use it
   4.3 practice
+
 5 ASP.NET MVC
+
 6 HTML and CSS 
 
   
