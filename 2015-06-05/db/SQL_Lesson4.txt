@@ -1,0 +1,43 @@
+Three Stages of Database Development
+
+1 Requirement Analysis Stage
+  -->  
+  Sources of requirements
+  User Interviews
+  Forms
+  Reports
+  Queries
+  Use Cases
+  Business Rules
+  Observation
+  JAD Sessions --> all stakeholders in the single room to discuss
+
+2 Component Design Stage
+  >> ER Model
+    --> Entities
+    --> Attributes --> used to describe the entity
+      ** Identifiers(keys)
+      ** Non-key attributes
+    --> Relationships
+
+  >> Entity Class vs. Entity Instance
+  >> Relationships between entities
+    --> Degree of the relationship defines the number of entity classes that
+participate in the relationship
+      ** Degree 1 is a unary relationship --> relate to itself
+      ** Degree 2 is a binary relationship(the most common in relationship
+databases) --> two entities involved
+      ** Degree 3 is a ternary relationship --> 3 entities involved
+  >> Binary relationship
+   --> 1 : 1(One-to-One)
+   --> 1 : N(One-to-Many) the most common
+   --> N : N(Many-to-Many) --> require a third table as a lookup table
+
+
+
+
+
+
+
+3 Implementation Stage
+  --> Realworld datbase tables, functions

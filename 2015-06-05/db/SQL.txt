@@ -1,0 +1,182 @@
+>> Structured Query Language
+
+1 Originally developed by IBM as the SEQUEL language in the 1970s.
+2 It's designed to support Edgar Codd's relational model
+3 It's based on relational algebra
+4 It's ANSI / ISO standard (which means it's used across all relational
+database products)
+5 It's NOT a programming language, but rather is a data sub-language.
+
+6 SQL is comprised of:
+  DDL --> data definition language
+  DML --> data manipulation language
+  DCL --> for creating user accounts, managing permissions, etc.
+
+7 DDL
+  >> Create
+    To create database objects
+  >> Alter
+    To modify the structure and / or characteristics of existing database
+objects
+  >> Drop
+    To delete existing database objects
+
+8 CREATE TABLE Employee (
+    empId Integer NOT NULL,
+    skillId Integer NOT NULL,
+    empName Char(25) NOT NULL,
+    CONSTRAINT empPK PRIMARY KEY(empId, skillId),
+    CONSTRAINT skillFk FOREIGN KEY(skillId) REFERENCES Skill(skillId) ON
+DELETE CASCADE,
+    CONSTRAINT empFk FOREIGN KEY(empId) REFERENCES Employee(empId) ON UPDATE
+CASCADE
+  );
+
+9 Every constraint must have a name.
+
+10 ALTER TABLE Employee
+    ADD CONSTRAINT empPK PRIMARY KEY(empId);
+
+11 INSERT INTO TableName VALUES (); --> non-numeric data must be enclosed in
+single quote.
+  --> this inserts one row at a time
+
+12 UPDATE TableName SET Property1 = Value1, Property2 = Value2 WHERE CLAUSE;
+  --> this can change multiple rows at one time.
+
+13 DELETE FROM TableName WHERE CLAUSE
+  --> this deletes one or multiple rows
+
+14 the SELECT FROM WHERE framework 
+  --> and the result is also a relation
+  --> so we can use of the result of a select from where framework just like a
+relation
+  --> but the result set may not be a 3rd Normal Form 
+
+15 the DISTINCT keyword
+
+16 the WHERE CLAUSE 
+  --> is used to tell the database to restrict the operation it performs
+
+17 Equals =
+   Not Equal <> or !=
+   Greater than >
+   Less than <
+   Greater than or Equal to >=
+   Less than or Equal to <=
+
+18 AND --> Intersection of two sets
+   OR --> Union of two sets
+
+19 the IN keyword
+   --> SELECT empName FROM Employee WHERE deptId IN (4, 8, 9);
+
+20 the NOT IN
+
+21 the BETWEEN keyword
+
+22 the LIKE keyword
+  --> allows for searches on partial data values
+  --> the multiple character wildcard character: %
+  --> the single character wildcard character: _
+
+23 ORDER BY 
+  --> ASC, the default
+  --> DESC
+  --> sort a number
+  --> sort a string
+  --> sort a date(ASC: oldest at top)
+
+24 Built-in numeric functions:
+  --> COUNT
+  --> MIN
+  --> MAX
+  --> SUM
+  --> AVG
+  --> STDEV
+
+25 GROUP BY
+  Categorize the result by certain property
+
+26 GROUP BY with HAVING
+  Filter the categorised result
+  -->
+  SELECT salespersonId, salespersonLastName,
+         SUM(saleAmount) AS totalSales
+  FROM Sales
+  GROUP BY salespersonId, salespersonLastName
+  HAVING SUM(saleAmount) >= 10000;
+
+27 HAVING is like a WHERE, but it's only for GROUP BY
+
+28 Subqueries
+  The results from one query(also a relation) may be used as input for another
+query, this is called a subquery.
+  >> Noncorrelated subqueries
+   --> The inner query only needs to run once in order for the database engine
+to solve the problem   
+  >> Correlated subqueries
+   --> The inner query needs to run multiple times:
+  SELECT empName
+  FROM Employee e
+  WHERE empSalary >
+        (SELECT AVG(empSalary)
+         FROM Employee
+         WHERE deptId = e.deptId);
+
+29 JOIN
+  >> Another way of combining data from multiple tables
+    --> Inner Join
+      SELECT empName, depName
+      FROM Employee AS E, Department AS D 
+      WHERE E.deptId = D.deptId
+
+      
+     SELECT empName, deptName
+     FROM Employee e INNER JOIN Department d
+          ON e.deptId = d.deptId
+     WHERE d.deptName NOT LIKE 'Account%'
+
+    --> Outer Join
+       --> Left Outer Join
+       --> Full Outer Join
+       --> Right Outer Join
+  >> 
+30 The major different between INNER JOIN and OUTER JOIN:
+  >> the match pair
+  >> OUTER JOIN contains rows even when there is no matching pair values
+  >> LEFT OUTTER JOIN, contains all values of left table, plus values from
+   right table providing there are matching values to the right table
+  >> RIGHT OUTTER JOIN, contains all values of right table, plus values from
+   the left table providing there are matching values to the left table.
+  >> FULL OUTTER JOIN
+
+31 DROP
+
+32 CHECK, a CHECK CONSTRAINT
+  ALTER TABLE Project
+    ADD CONSTRAINT projectCheckDates
+      CHECK (startDate < endDate);
+
+33 SQL Views
+  It's a virtual table created by a DBMS-stored SELECT statement which can
+combine access to data in multiple tables and even in other views.
+
+  CREATE VIEW SalesDepartment AS
+  SELECT * 
+  FROM Employee
+  WHERE deptId = (SELECT deptId FROM Department WHERE deptName = 
+'Sales');
+
+
+
+  You can run a query against a view in the same way that you run a query
+against a table.
+
+34  
+31 
+
+
+
+
+
