@@ -1,0 +1,44 @@
+Lesson One:
+
+1 The protential problems with lists:
+  1.1) The essence of real world data is not simply a list
+  1.2) If we put all data in a list, we will have these problems:
+    > redundance(which means a piece of data appears in multiple list items)
+    > deletion anomaly 
+        --> have to delete at multiple rows, or
+        --> delete it at one row, but it is needed at other rows
+    > insertion anomaly
+        --> cause null values(or empty cells)  
+    > update anomaly
+        --> have to udpate multiple rows
+    all the above problems cause data to be not integrity
+
+2 The reason for using a database
+  2.1) database not only stores data, but also provides other functions
+  2.2) relational database is designed to handle complex relationships between
+data, which is the case in real world
+
+3 How related database tables avoid problems associated with lists
+  Create 3rd Normal Formed database tables instead of Lists
+  1st Normal Form is a valid relation(Relational database table)
+  2nd Normal Form is that based on 1st Normal Form, all non-unique attributes depend on entire primary
+key, not partially
+  3rd Normal Form is that based on 2nd Normal Form, no trivistial
+attributes(which means, no attributes depends on other non-primary keys
+attributes)
+
+4 The components of a database system
+  A database system is not only a database, it's a management system,
+providing lots of management functions, including multiple databases
+
+5 The elements of a database
+  Tables
+  Functions
+  Rules
+  Constraints
+  Views
+  StoredProcedures
+
+6 The purpose of a database management system
+
+7 The functions of a database application
