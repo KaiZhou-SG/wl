@@ -1,0 +1,40 @@
+1 The Entity Relationship Model: Programming Against a Model, Not the Database
+  1.1 A central benefit of the Entity Framework is that it frees you from
+being concerned with the structure of your database. All your data access and
+storage is done against a conceptural data model that reflects your own
+business objects.
+  Which means with EF, you no longer query against the schema of a database,
+but rather against a schema that reflects your own business model:
+  >> When data is retrieved, you are not forced to reason out columns and rows
+and push them into objects, because they are returned as objects.
+  >> When it's time to save changes back to the database, you have to save
+only those objects. The EF does the necessary work of translating your objects
+back into the rows and columns of the relational store.
+  >> Simply speaking, EF translates tabular data into objects.
+  >> In general, model-driven development is getting more and more attentation
+from Microsoft.
+
+2 The Entity Data Model: A Client-Side Data Model
+  2.1 The Entity Data Model is the core of the Entity Framework. It is not the
+same as the database model, which belongs to the database.
+  2.2 The data model in the application describes the structure of your
+business objects. It's as though you were given permission to restructure the
+database tables and views in your enterprise's database so that the tables and
+relationships look more like your business domain rather than the normalized
+schema that is designed by database administrators. 
+  2.3 When working with EF, you'll implement an EDM that is particular to the
+EF. In EF, an EDM is represented by a single XML file at design time that is
+split into a set of three XML files at run time: One of which represents a
+conceptural model, the other two provide metadata that enables EF to interact
+with a database.
+
+3 Entities: Blueprints for Business Classes
+  3.1 The items described by an EDM are known as entities. Classes that are
+generated from EDM differ from typical business classes in that they have
+properties but no behavior apart from methods to enable change tracking.
+  3.2 With the classes EF generates, you can add your own business logic, pull
+the results into business objects of your own, and you can even link your own business
+objects to the EDM, replacing the generated classes. But by definition, the
+entity classes describe only their schema.
+  3.3 In addition to being able to reshape the entities in a data model with
+inheritance, you can also define relationships between entities.
