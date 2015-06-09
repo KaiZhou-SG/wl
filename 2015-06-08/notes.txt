@@ -1,0 +1,5 @@
+1 In order for the SQL Server instances to be searched and retrieved in other
+applications, such as Entity Framework, SQL Server Browser service should be
+opened.
+2 Always back the original setting before modifying it.
+3 

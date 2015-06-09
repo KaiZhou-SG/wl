@@ -10,6 +10,8 @@ and push them into objects, because they are returned as objects.
   >> When it's time to save changes back to the database, you have to save
 only those objects. The EF does the necessary work of translating your objects
 back into the rows and columns of the relational store.
+  >> EF also lets you retrieve graphs, which means you can returns shaped data
+such as a Customer with all of its Order details already attached.
   >> Simply speaking, EF translates tabular data into objects.
   >> In general, model-driven development is getting more and more attentation
 from Microsoft.
@@ -38,3 +40,85 @@ objects to the EDM, replacing the generated classes. But by definition, the
 entity classes describe only their schema.
   3.3 In addition to being able to reshape the entities in a data model with
 inheritance, you can also define relationships between entities.
+
+4 The Backend Database: Your Choice
+  4.1 The EF model doesn't have any knowledge of the data store--what type of
+database it is, much less what the schema is. And it doesn't need to. The
+database you choose as your backend will have no impact on your model or your
+code. --> That's why we say EF is a client-side data model.
+  4.2 The EF communicates with the same ADO.NET data providers that ADO.NET
+already uses, but with a caveat: the provider must be updated to support the
+EF. The provider participates in reshaping the EF's queries and commands into
+native queries and commands. All you need to do is identify the provider and a
+database connection string so that the Entity Framework can get to the
+database.
+  4.3 This means if you need to write applications against a number of
+different databases, you won't have to learn the ins and outs of each
+database. You can write queries with the Entity Framework's syntax(either LINQ
+to Entities or Entity SQL)and never have to worry about the differences
+between the databases. If you need to take advantage of functions or
+operations that are particular to a database, Entity SQL allows you to do that
+as well.
+
+5 Metadata
+  5.1 Metadata is data that describes other data
+  5.2 Behind the conceptual schema described in the EDM is another pair of XML
+files that map your data model back to database. One is an XML file that
+describes your database and the other is a file that provides the mapping
+between your conceptual model and the database.
+  5.3 During query execution and command execution(for updates), the EF
+figures out how to turn a query or command that is expressed in terms of the
+data model into one that is expressed in terms of your database. It does this
+by reading the metadata. When data is returned from database, it uses the
+metadata again, to shape the database results into the entities and further
+materializes objects from those results.
+
+6 Object Services
+  6.1 Object Services sites on top of the Entity Framework stack, and provides
+the functionality needs to work with objects that are based on your entities.
+Object Services provides a class called EntityObject and can easily manage any
+class that inherits from EntityObject.
+  >> materializing objects from the results of queries against the EDM
+  >> keeping track of changes to those objects
+  >> managing relationships between objects, and saving changes back to the
+database.
+  6.2 In between querying and updating, Object Services provides a host of
+capabilities to interact with entity objects, such as automatically working
+with a lower level of the Entity Framework to do all of the work necessary to
+make calls to the database and deal with the results. 
+  6.3 Object Services also provides serialization(both XML and binary).
+
+7 POCO Support
+  7.1 Plain Old CLR Objects.
+  7.2 .NET 4 enables the Entity Framework to manage entities that do not
+inherit from EntityObjct(by adding runtime support). Those entities are called
+POCO objects.
+
+8 Change Tracking
+  Once an entity object has been instantiated, either as a result of data
+returned from a query or by instantiating a new object in code, Object
+Services can keep track of that object. This is default for objects returned
+from queries. When Object Services manages an object, it can keep track of
+changes made to the object's properties or its relationships to other entity
+objects.
+  Object Services then uses the change-tracking information when it's time to
+update the data. It constructs Insert, Update, and Delete commands for each
+object that has been added, modified, or deleted by comparing the original
+values to the current values of the entity. If you are using stored procedures
+in conjunction with entities it will pass the current values(and any original
+values specifically identified) to those procedures.
+
+9 Relationship Management and Foreign Keys
+  Even with foreign keys, you will need to have a very good understanding of
+how relationships work. Some of the rules of engagement when working with
+related data are not very intuitive, and you can write code that will raise
+plenty of exceptions, or worse, will return invalid results.
+
+
+10 Data Binding
+  10.1 You can use entities as a data source for data-bound controls or as the
+data source for BindingSource controls, which orchestrate the binding between
+objects and UI controls on the form.
+
+11 
+
