@@ -1,0 +1,11 @@
+1 Navigation property
+  --> property does not belong to the entity, but used to retrieve other
+entities.
+
+2 DBContext
+  --> holds all the database related operations
+
+3 DBSet data type
+  --> inherit from this class to implement database operations
+
+4  
