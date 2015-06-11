@@ -1,0 +1,19 @@
+>> For interacting with SQL Server Database
+
+1 The System.Data.SqlClient namespace
+2 SqlConnection class
+  2.1 the connection string
+  2.2 open and close the database connection object
+  2.3 the using statement
+3 SqlCommand class
+  3.1 
+  
+4 SqlDataReader
+5 SqlDataAdapter
+6 DataSet
+
+>> Sql injection and how to prevent it
+
+>> 
+
+
