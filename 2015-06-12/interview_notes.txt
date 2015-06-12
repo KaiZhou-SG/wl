@@ -1,0 +1,12 @@
+1 Key points:
+  1.1 SQL Server 
+    --> basic concepts
+    --> basic T-SQL queries
+    --> advanced concepts
+    --> complex T-SQL queries
+  1.2 ASP.NET
+    --> basic concepts
+    --> advanced concepts
+  1.3 LINQ
+    --> basic usage
+
