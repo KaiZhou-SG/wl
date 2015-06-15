@@ -1,0 +1,33 @@
+Two phases:
+  phase 1: 06-04 ~ 06-23
+    --> Learn SQL Server 
+    --> Learn ASP.NET
+    --> Learn LINQ
+    --> Learn threading
+    --> Learn JavaScript
+    --> Learn jQuery
+    --> Send Resume
+
+  Phase 2: 06-25 ~ 07-20
+    --> Review what I've done in phase 1, what has been done well, what need
+to be improved
+    --> Study into SQL Server and ASP.NET
+    --> Optimize my resume, and send out a lot of resume
+
+Detailed plans:
+
+--> Learn SQL Servier
+  >> watch 8 video tutorials, done
+
+--> Learn ASP.NET MVC(06-15, 06-16, 06-17)
+  >> Watch 100 video tutorials
+  >> Create my own ASP.NET MVC application
+  >> Gather ASP.NET interview questions
+
+--> Learn LINQ(06-18)
+
+--> Learn threading(06-19)
+
+--> Learn JavaScript(06-20)
+
+--> Learn jQuery(06-21, 06-22, 06-23)
