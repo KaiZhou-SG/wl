@@ -1,0 +1,63 @@
+1 What is Session?
+  1.1 HTTP is a stateless protocol, it can't hold client information on a
+page.
+  1.2 If the user inserts some information and move to the next page, that
+data will be lost and the user would not be able to retrieve that information.
+  1.3 Session provides a facility to store information on server memory.
+  1.4 Session can support any type of object to store along with custom
+objects.
+  1.5 For every client, session data is stored separately, meaning session
+data is stored on a per client basis.
+
+2 Where is session data(session state) stored precisely?
+  From MSDN documentation:
+  2.1 ASP.NET session state supports several storage options for session
+variables. Each option is identified as a session-state Mode type.
+  2.2 The default behavior is to store session variables in the memory space
+of the ASP.NET worker process.
+  2.3 You can also specify the session state should be stored in a spearate
+process, in a SQL Server database, or in a custom data source.
+  2.4 You can also disable session state for your application by setting the
+session mode to Off.
+  2.5 In ASP.NET, you have a Session Cookie. This cookie is used to identify
+which session is yours; but doesn't actually contain the session
+information(meaning, actual Session data is still stored on server side).
+  2.6 When the ASP.NET application is set to stateless = true, the session
+data is stored in the URL.
+
+3  What is Cookie?
+  3.1 Cookie is also called:
+    web cookie,
+    internet cookie,
+    browser cookie
+    or simply cookie.
+  3.2 Cookie is a small piece of data sent from a website and stored in a
+user's web browser while the user is browsing that website.
+  3.3 When the user loads the website, the browser sends the cookie back to
+the server to notify the website of the user's previous activity.
+  3.4 Cookies were designed to be a reliable mechanism for websites to
+remember stateful information(such as items in a shopping cart)or to record
+the user's browsing activity(including clicking particular buttons, logging
+in, or recording which pages were visited by the user as far back as months or
+years ago).
+  3.5 Tracking cookies and especially third-party tracking cookies are
+commonly used as ways to compile long-term records of individuals' browsing
+histories--a potential privacy concern that prompted European and U.S. law
+makers to take action in 2011.
+  3.6 Cookies can also store passwords and form content a user has previously
+entered, such as credit card number and an address.
+  3.7 Other kinds of cookies perform essential functions in the modern web.
+Perhaps most importantly, authentication cookies are the most common method
+used by web servers to know whether the user is logged in or not, and which
+account they are logged in with. Without such a mechanism, the site would not
+know whether to send a page containing sensitive information, or require the
+user to authenticate themselves by logging in.
+
+4 ASP.NET Page life cycles
+
+5 ASP.NET Page Level Events
+
+6 IsPostBack
+
+7  
+
