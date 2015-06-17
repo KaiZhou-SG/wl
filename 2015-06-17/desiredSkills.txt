@@ -1,0 +1,23 @@
+Two phases: 
+
+  phase 1: 06-04 ~ 06-17
+   --> got an offer from NCS, DBS project, done
+
+  phase 2: 06-18 ~ 06-30, keep sending out resumes 
+   --> 13 days in total, 1 day off per week
+   --> 2 days ASP.NET WinForm slides, 06-18, 06-19
+   --> 2 days ASP.NET MVC slides, 06-20, 06-22
+   --> 2 days database, 06-23, 06-24
+    >> 0.5 day review SQL Server screenshots
+      * for basic concepts, expecially relationships, keys, and normalization
+    >> 1 day review complex T-SQL queries
+      * JOIN, INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN
+      * GROUP BY, HAVING
+      * Stored procedure, view, functions
+    >> 0.5 day learn LINQ cheats
+   --> 1 days JavaScript videos, 06-25
+   --> 2 days jQuery slides, 06-26, 06-27
+   --> 2 days developing an ASP.NET MVC web application, using ASP.NET MVC,
+06-29, 06-30
+
+
