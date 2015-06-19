@@ -1,0 +1,40 @@
+1 What is a web application?
+    >> Web application is a kind of software application that builds on top of
+the Browser / Server architecture, and the HTTP protocol.
+    >> On the server side, a web application listens to HTTP requests from
+client side(usually the browser), and process the requests, then send result
+back to the client side(usually in HTML format).
+    >> The web application is usually contained by a web application container
+on the Server side, that is used to config and manage the web application.
+
+2 Microsoft's solution of web application programming:
+  2.1 IIS as the web application container, web sites or web applications are
+placed under IIS.
+  2.2 Use ASP.NET WebForm Framework or ASP.NET MVC Framework to develop web
+application. Develop a web application means:
+    1) The web application keeps running, and listening to requests from the
+client.
+    2) When the client sends a request to the root directory to the web
+application, a default page is send back to the client.
+    3) The client having the default page, then fill in forms on it, and
+submit(this is a POSTBACK).
+    4) The web application receives the POSTBACK(containing client data on the
+forms), and process it(usually update the data into database).
+    5) The web application then send result information(such as data saved
+successfully) to the client.
+    6) The client then proceed with another request(using the browser).
+
+3 Details of ASP.NET WebForm
+  3.1 First of all, ASP.NET WebForm application provides a default page, which
+whenever a client access the url of the web application, it displays on the
+browser.
+  3.2 The default page is mostly HTML, plus kinds of ASP.NET controls. 
+  3.3 ASP.NET controls are consist of asp:text, asp:button, asp:dropdownlist,
+asp:checkbox and so on...
+  3.4 The user works on the ASP.NET controls, and ASP.NET controls will then
+send their new state to the server side, for processing.
+  3.5 After processing, results will send back from the web application server
+to the client.
+
+4 Details of ASP.NET MVC
+
