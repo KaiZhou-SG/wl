@@ -1,0 +1,27 @@
+10 days: 2015-06-21 ~ 2015-07-01 in Hangzhou
+
+Task list:
+
+1 Learn HTML form. --> 1 day, 2015-06-21
+  1.1 What is HTML form control?
+  1.2 How to use HTML form control to submit data to server side?
+  1.3 On server side, how to receive submitted data from client HTML form?
+  1.4 After processing submitted data, how to send reply to client side?
+
+2 Learn ASP.NET WebForm basics. --> 3.5 days, 06-22, 06-23, 06-24, 06-25
+  2.1 The difference among HTML control, Server control, and ASP.NET control.
+    --> 0.5 day, 2015-06-22 a.m.
+  2.2 How does ASP.NET WebFrom technology render HTML pages and controls, how
+does web pages send data to server side, how does server side receive
+submitted data and send reponse to the client side.
+    --> 2 days, 2015-06-22 p.m., 2015-06-23, 2015-06-24
+  2.3 Authentication and authurization
+    --> 1 day, 2015-06-25
+  
+3 Learn EntityFramework basics --> 2 days, 2015-06-26, 2015-06-27
+  3.1 The Code first way
+  3.2 Gain hands on experience
+
+4 JavaScript function & prototype --> 1 day, 2015-06-28
+
+5 jQuery --> 2 days, 2015-06-29, 2015-06-30
