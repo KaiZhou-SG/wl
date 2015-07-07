@@ -1,0 +1,8 @@
+>> Request.ApplicationPath
+>> Request.FilePath
+>> Request.Path
+>> Request.MapPath
+>> Server.MapPath
+
+
+

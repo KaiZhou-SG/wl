@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML plus JavaScript</title>
+<SCRIPT TYPE="text/javascript">
+<!--
+function Circle_calc(GeoForm)
+{
+var CircleRadius = GeoForm.Circle_radius.value;
+if (CircleRadius >= 0)
+   {
+   GeoForm.Circle_circumference.value =  2 * Math.PI * CircleRadius ;
+   GeoForm.Circle_area.value =  Math.PI * Math.pow(CircleRadius, 2) ;
+   }
+else
+   {
+   GeoForm.Circle_circumference.value =  "";
+   GeoForm.Circle_area.value =  "";
+   }
+}
+
+function Cone_calc(GeoForm)
+{
+var ConeRadius = GeoForm.Cone_radius.value;
+var ConeHeight = GeoForm.Cone_height.value;
+
+if ((ConeRadius >= 0) && (ConeHeight >= 0))
+   {
+   GeoForm.Cone_surfacearea.value = (Math.PI * Math.pow(ConeRadius, 2)) + (Math.PI * ConeRadius * Math.sqrt(Math.pow(ConeRadius, 2) + Math.pow(ConeHeight, 2)));
+   GeoForm.Cone_volume.value = (1/3) * Math.PI * Math.pow(ConeRadius,2) * ConeHeight;
+   }
+else
+   {
+   GeoForm.Cone_surfacearea.value = "";
+   GeoForm.Cone_volume.value = "";
+   }
+}
+
+function Sphere_calc(GeoForm)
+{
+var SphereRadius = GeoForm.Sphere_radius.value;
+
+if (SphereRadius >= 0) 
+   {
+   GeoForm.Sphere_surfacearea.value = 4 * Math.PI * Math.pow(SphereRadius, 2);
+   GeoForm.Sphere_volume.value = (4/3) * Math.PI * Math.pow(SphereRadius, 3);
+   }
+else
+   {
+   GeoForm.Sphere_surfacearea.value = "";
+   GeoForm.Sphere_volume.value = "";
+   }
+}
+// -->
+</SCRIPT>
+</head>
+<body>
+<FORM>
+<TABLE BORDER CELLPADDING=3>
+<!-- circumference and radius of a circle -->
+<TR>
+
+<TH>Circumference and Radius of a Circle<BR><IMG SRC="../graphics/circle.gif" HEIGHT=88 WIDTH=88 ALT="picture of a circle"></TH>
+<TD><NOBR>radius: <INPUT NAME="Circle_radius" SIZE=4></NOBR></TD>
+<TD><INPUT TYPE=BUTTON OnClick="Circle_calc(this.form);" VALUE="calculate"></TD>
+<TD ALIGN=RIGHT BGCOLOR="#AACCFF">
+   <NOBR>circumference: <INPUT NAME="Circle_circumference" SIZE=9></NOBR><BR>
+   <NOBR>area: <INPUT NAME="Circle_area" SIZE=9></NOBR></TD>
+</TR>
+
+<!-- Surface area and volume of a cone -->
+<TR>
+<TH>Surface Area and Volume of a Cone<BR><IMG SRC="../graphics/cone.gif" HEIGHT=106 WIDTH=115 ALT="picture of a cone"></TH>
+<TD ALIGN=RIGHT><NOBR>radius: <INPUT NAME="Cone_radius" SIZE=4></NOBR><BR>
+   <NOBR>height: <INPUT NAME="Cone_height" SIZE=4></NOBR></TD>
+<TD><INPUT TYPE=BUTTON OnClick="Cone_calc(this.form);" VALUE="calculate"></TD>
+<TD ALIGN=RIGHT BGCOLOR="#AACCFF">
+   <NOBR>surface area: <INPUT NAME="Cone_surfacearea" SIZE=9></NOBR><BR>
+   <NOBR>volume: <INPUT NAME="Cone_volume" SIZE=9></NOBR></TD>
+</TR>
+
+<!-- Surface Area and Volume of a Sphere -->
+<TR>
+<TH>Surface Area and Volume of a Sphere<BR><IMG SRC="../graphics/sphere.gif" HEIGHT=88 WIDTH=88 ALT="picture of a sphere"></TH>
+<TD><NOBR>radius: <INPUT NAME="Sphere_radius" SIZE=4></NOBR></TD>
+<TD><INPUT TYPE=BUTTON OnClick="Sphere_calc(this.form);" VALUE="calculate"></TD>
+<TD ALIGN=RIGHT BGCOLOR="#AACCFF"><NOBR>surface area: <INPUT NAME="Sphere_surfacearea" SIZE=9></NOBR><BR>
+   <NOBR>volume: <INPUT NAME="Sphere_volume" SIZE=9></NOBR></TD>
+            
+</TR>
+</TABLE>
+</FORM>
+</body>
+</html>
