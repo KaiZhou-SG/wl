@@ -1,0 +1,28 @@
+07-07 
+
+In the morning(1 hour):
+
+1 Review what I've learned about ASP.NET Web Form technology
+  1.1 Screenshots
+  1.2 Use my brain to think and summarize the knowledge
+
+
+In the afternoon(14:00 ~ 18:00, 4 hours)
+
+0 Get the medical-check report, and scan to an e-copy, send it to Upasana,
+call her to make sure all the documents are ready for collecting work pass.
+1 Think about what I already know about ASP.NET MVC
+2 Think about how the message is passed from Web Pages to Controller then to
+Model
+3 Try to choose a good book on ASP.NET MVC and focus on it
+
+In the evening(19:00 ~ 22:00, 2 hours)
+
+1 Spend 1 hour to do some body exercises
+2 Spend 2 hours learning ASP.NET MVC
+
+
+>> Next step
+I have to make a long-term learnning plan, including software technology and
+finance
+
